@@ -28,6 +28,9 @@
 		5494CBF616AA17F1007DB7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC616AA17F1007DB7AB /* Foundation.framework */; };
 		5494CBFE16AA17F1007DB7AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5494CBFC16AA17F1007DB7AB /* InfoPlist.strings */; };
 		5494CC0116AA17F1007DB7AB /* myResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC0016AA17F1007DB7AB /* myResumeTests.m */; };
+		5494CC0E16AA1FFF007DB7AB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC0D16AA1FFF007DB7AB /* ThirdViewController.m */; };
+		5494CC1116AA2239007DB7AB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1016AA2239007DB7AB /* FourthViewController.m */; };
+		5494CC1416AA2247007DB7AB /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1316AA2247007DB7AB /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,24 +54,30 @@
 		5494CBD216AA17F1007DB7AB /* myResume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myResume-Prefix.pch"; sourceTree = "<group>"; };
 		5494CBD316AA17F1007DB7AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5494CBD416AA17F1007DB7AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5494CBD616AA17F1007DB7AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		5494CBD816AA17F1007DB7AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		5494CBDA16AA17F1007DB7AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5494CBD616AA17F1007DB7AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = myResume/Default.png; sourceTree = "<group>"; };
+		5494CBD816AA17F1007DB7AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "myResume/Default@2x.png"; sourceTree = "<group>"; };
+		5494CBDA16AA17F1007DB7AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "myResume/Default-568h@2x.png"; sourceTree = "<group>"; };
 		5494CBDD16AA17F1007DB7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5494CBDF16AA17F1007DB7AB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5494CBE016AA17F1007DB7AB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5494CBE216AA17F1007DB7AB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		5494CBE416AA17F1007DB7AB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		5494CBE616AA17F1007DB7AB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5494CBE716AA17F1007DB7AB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		5494CBE916AA17F1007DB7AB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		5494CBEB16AA17F1007DB7AB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5494CBDF16AA17F1007DB7AB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = myResume/FirstViewController.h; sourceTree = "<group>"; };
+		5494CBE016AA17F1007DB7AB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = myResume/FirstViewController.m; sourceTree = "<group>"; };
+		5494CBE216AA17F1007DB7AB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = myResume/first.png; sourceTree = "<group>"; };
+		5494CBE416AA17F1007DB7AB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "myResume/first@2x.png"; sourceTree = "<group>"; };
+		5494CBE616AA17F1007DB7AB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = myResume/SecondViewController.h; sourceTree = "<group>"; };
+		5494CBE716AA17F1007DB7AB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = myResume/SecondViewController.m; sourceTree = "<group>"; };
+		5494CBE916AA17F1007DB7AB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = myResume/second.png; sourceTree = "<group>"; };
+		5494CBEB16AA17F1007DB7AB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "myResume/second@2x.png"; sourceTree = "<group>"; };
 		5494CBF216AA17F1007DB7AB /* myResumeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myResumeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494CBF316AA17F1007DB7AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5494CBFB16AA17F1007DB7AB /* myResumeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myResumeTests-Info.plist"; sourceTree = "<group>"; };
 		5494CBFD16AA17F1007DB7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5494CBFF16AA17F1007DB7AB /* myResumeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myResumeTests.h; sourceTree = "<group>"; };
 		5494CC0016AA17F1007DB7AB /* myResumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myResumeTests.m; sourceTree = "<group>"; };
+		5494CC0C16AA1FFF007DB7AB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5494CC0D16AA1FFF007DB7AB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5494CC0F16AA2239007DB7AB /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		5494CC1016AA2239007DB7AB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		5494CC1216AA2247007DB7AB /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		5494CC1316AA2247007DB7AB /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,8 @@
 		5494CBB516AA17F1007DB7AB = {
 			isa = PBXGroup;
 			children = (
+				5494CC0B16AA1FCE007DB7AB /* ViewControllers */,
+				5494CC0A16AA1D6D007DB7AB /* Resources */,
 				5494CBCA16AA17F1007DB7AB /* myResume */,
 				5494CBF916AA17F1007DB7AB /* myResumeTests */,
 				5494CBC316AA17F1007DB7AB /* Frameworks */,
@@ -131,14 +142,6 @@
 				5494CBD316AA17F1007DB7AB /* AppDelegate.h */,
 				5494CBD416AA17F1007DB7AB /* AppDelegate.m */,
 				5494CBDC16AA17F1007DB7AB /* MainStoryboard.storyboard */,
-				5494CBDF16AA17F1007DB7AB /* FirstViewController.h */,
-				5494CBE016AA17F1007DB7AB /* FirstViewController.m */,
-				5494CBE216AA17F1007DB7AB /* first.png */,
-				5494CBE416AA17F1007DB7AB /* first@2x.png */,
-				5494CBE616AA17F1007DB7AB /* SecondViewController.h */,
-				5494CBE716AA17F1007DB7AB /* SecondViewController.m */,
-				5494CBE916AA17F1007DB7AB /* second.png */,
-				5494CBEB16AA17F1007DB7AB /* second@2x.png */,
 				5494CBCB16AA17F1007DB7AB /* Supporting Files */,
 			);
 			path = myResume;
@@ -151,9 +154,6 @@
 				5494CBCD16AA17F1007DB7AB /* InfoPlist.strings */,
 				5494CBD016AA17F1007DB7AB /* main.m */,
 				5494CBD216AA17F1007DB7AB /* myResume-Prefix.pch */,
-				5494CBD616AA17F1007DB7AB /* Default.png */,
-				5494CBD816AA17F1007DB7AB /* Default@2x.png */,
-				5494CBDA16AA17F1007DB7AB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +175,37 @@
 				5494CBFC16AA17F1007DB7AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5494CC0A16AA1D6D007DB7AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5494CBD616AA17F1007DB7AB /* Default.png */,
+				5494CBD816AA17F1007DB7AB /* Default@2x.png */,
+				5494CBDA16AA17F1007DB7AB /* Default-568h@2x.png */,
+				5494CBE216AA17F1007DB7AB /* first.png */,
+				5494CBE416AA17F1007DB7AB /* first@2x.png */,
+				5494CBE916AA17F1007DB7AB /* second.png */,
+				5494CBEB16AA17F1007DB7AB /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5494CC0B16AA1FCE007DB7AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5494CBDF16AA17F1007DB7AB /* FirstViewController.h */,
+				5494CBE016AA17F1007DB7AB /* FirstViewController.m */,
+				5494CBE616AA17F1007DB7AB /* SecondViewController.h */,
+				5494CBE716AA17F1007DB7AB /* SecondViewController.m */,
+				5494CC0C16AA1FFF007DB7AB /* ThirdViewController.h */,
+				5494CC0D16AA1FFF007DB7AB /* ThirdViewController.m */,
+				5494CC0F16AA2239007DB7AB /* FourthViewController.h */,
+				5494CC1016AA2239007DB7AB /* FourthViewController.m */,
+				5494CC1216AA2247007DB7AB /* FifthViewController.h */,
+				5494CC1316AA2247007DB7AB /* FifthViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +326,9 @@
 				5494CBD516AA17F1007DB7AB /* AppDelegate.m in Sources */,
 				5494CBE116AA17F1007DB7AB /* FirstViewController.m in Sources */,
 				5494CBE816AA17F1007DB7AB /* SecondViewController.m in Sources */,
+				5494CC0E16AA1FFF007DB7AB /* ThirdViewController.m in Sources */,
+				5494CC1116AA2239007DB7AB /* FourthViewController.m in Sources */,
+				5494CC1416AA2247007DB7AB /* FifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
