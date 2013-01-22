@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FifthViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @end

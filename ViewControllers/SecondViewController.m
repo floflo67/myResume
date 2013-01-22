@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationBar.topItem.title = @"Projects";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,4 +27,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [_navigationBar release];
+    [super dealloc];
+}
 @end

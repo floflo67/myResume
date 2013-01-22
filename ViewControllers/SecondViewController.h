@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @end
