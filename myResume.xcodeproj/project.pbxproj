@@ -31,6 +31,12 @@
 		5494CC0E16AA1FFF007DB7AB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC0D16AA1FFF007DB7AB /* ThirdViewController.m */; };
 		5494CC1116AA2239007DB7AB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1016AA2239007DB7AB /* FourthViewController.m */; };
 		5494CC1416AA2247007DB7AB /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1316AA2247007DB7AB /* FifthViewController.m */; };
+		54FF3B3216AF47C600E76025 /* MultipleSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */; };
+		54FF3B3316AF47C600E76025 /* MultipleSectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */; };
+		54FF3B3816AF497900E76025 /* SingleSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */; };
+		54FF3B3916AF497900E76025 /* SingleSectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */; };
+		54FF3B3D16AF498900E76025 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF3B3B16AF498900E76025 /* DetailViewController.m */; };
+		54FF3B3E16AF498900E76025 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF3B3C16AF498900E76025 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +84,15 @@
 		5494CC1016AA2239007DB7AB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		5494CC1216AA2247007DB7AB /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		5494CC1316AA2247007DB7AB /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipleSectionTableViewController.h; path = Classes/MultipleSectionTableViewController.h; sourceTree = "<group>"; };
+		54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipleSectionTableViewController.m; path = Classes/MultipleSectionTableViewController.m; sourceTree = "<group>"; };
+		54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleSectionTableViewController.xib; path = Classes/MultipleSectionTableViewController.xib; sourceTree = "<group>"; };
+		54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleSectionTableViewController.h; path = Classes/SingleSectionTableViewController.h; sourceTree = "<group>"; };
+		54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleSectionTableViewController.m; path = Classes/SingleSectionTableViewController.m; sourceTree = "<group>"; };
+		54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SingleSectionTableViewController.xib; path = Classes/SingleSectionTableViewController.xib; sourceTree = "<group>"; };
+		54FF3B3A16AF498900E76025 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54FF3B3B16AF498900E76025 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		54FF3B3C16AF498900E76025 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +228,15 @@
 		5494CC1516AA268A007DB7AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */,
+				54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */,
+				54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */,
+				54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */,
+				54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */,
+				54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */,
+				54FF3B3A16AF498900E76025 /* DetailViewController.h */,
+				54FF3B3B16AF498900E76025 /* DetailViewController.m */,
+				54FF3B3C16AF498900E76025 /* DetailViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -297,6 +321,9 @@
 				5494CBE516AA17F1007DB7AB /* first@2x.png in Resources */,
 				5494CBEA16AA17F1007DB7AB /* second.png in Resources */,
 				5494CBEC16AA17F1007DB7AB /* second@2x.png in Resources */,
+				54FF3B3316AF47C600E76025 /* MultipleSectionTableViewController.xib in Resources */,
+				54FF3B3916AF497900E76025 /* SingleSectionTableViewController.xib in Resources */,
+				54FF3B3E16AF498900E76025 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +365,9 @@
 				5494CC0E16AA1FFF007DB7AB /* ThirdViewController.m in Sources */,
 				5494CC1116AA2239007DB7AB /* FourthViewController.m in Sources */,
 				5494CC1416AA2247007DB7AB /* FifthViewController.m in Sources */,
+				54FF3B3216AF47C600E76025 /* MultipleSectionTableViewController.m in Sources */,
+				54FF3B3816AF497900E76025 /* SingleSectionTableViewController.m in Sources */,
+				54FF3B3D16AF498900E76025 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +540,7 @@
 				5494CC0616AA17F1007DB7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5494CC0716AA17F1007DB7AB /* Build configuration list for PBXNativeTarget "myResumeTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +549,7 @@
 				5494CC0916AA17F1007DB7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
