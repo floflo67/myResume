@@ -31,6 +31,7 @@
 		5494CC0E16AA1FFF007DB7AB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC0D16AA1FFF007DB7AB /* ThirdViewController.m */; };
 		5494CC1116AA2239007DB7AB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1016AA2239007DB7AB /* FourthViewController.m */; };
 		5494CC1416AA2247007DB7AB /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494CC1316AA2247007DB7AB /* FifthViewController.m */; };
+		54DBCF7B16BA1E970082901F /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBCF7A16BA1E970082901F /* XMLParser.m */; };
 		54FF3B3216AF47C600E76025 /* MultipleSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */; };
 		54FF3B3316AF47C600E76025 /* MultipleSectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */; };
 		54FF3B3816AF497900E76025 /* SingleSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */; };
@@ -84,6 +85,8 @@
 		5494CC1016AA2239007DB7AB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		5494CC1216AA2247007DB7AB /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		5494CC1316AA2247007DB7AB /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		54DBCF7916BA1E970082901F /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = Parser/XMLParser.h; sourceTree = "<group>"; };
+		54DBCF7A16BA1E970082901F /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = Parser/XMLParser.m; sourceTree = "<group>"; };
 		54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipleSectionTableViewController.h; path = Classes/MultipleSectionTableViewController.h; sourceTree = "<group>"; };
 		54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipleSectionTableViewController.m; path = Classes/MultipleSectionTableViewController.m; sourceTree = "<group>"; };
 		54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleSectionTableViewController.xib; path = Classes/MultipleSectionTableViewController.xib; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		5494CBB516AA17F1007DB7AB = {
 			isa = PBXGroup;
 			children = (
+				54DBCF7716BA1E320082901F /* Parser */,
 				5494CC1516AA268A007DB7AB /* Classes */,
 				5494CC0B16AA1FCE007DB7AB /* ViewControllers */,
 				5494CBCA16AA17F1007DB7AB /* myResume */,
@@ -239,6 +243,15 @@
 				54FF3B3C16AF498900E76025 /* DetailViewController.xib */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		54DBCF7716BA1E320082901F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				54DBCF7916BA1E970082901F /* XMLParser.h */,
+				54DBCF7A16BA1E970082901F /* XMLParser.m */,
+			);
+			name = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +381,7 @@
 				54FF3B3216AF47C600E76025 /* MultipleSectionTableViewController.m in Sources */,
 				54FF3B3816AF497900E76025 /* SingleSectionTableViewController.m in Sources */,
 				54FF3B3D16AF498900E76025 /* DetailViewController.m in Sources */,
+				54DBCF7B16BA1E970082901F /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
