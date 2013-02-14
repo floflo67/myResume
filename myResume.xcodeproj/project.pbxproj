@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542FC46D16CC7DE1002F0E4D /* StaticGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC46C16CC7DE1002F0E4D /* StaticGetter.m */; };
 		5494CBC516AA17F1007DB7AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC416AA17F1007DB7AB /* UIKit.framework */; };
 		5494CBC716AA17F1007DB7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC616AA17F1007DB7AB /* Foundation.framework */; };
 		5494CBC916AA17F1007DB7AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC816AA17F1007DB7AB /* CoreGraphics.framework */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		542FC46B16CC7DE1002F0E4D /* StaticGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticGetter.h; path = Parser/StaticGetter.h; sourceTree = "<group>"; };
+		542FC46C16CC7DE1002F0E4D /* StaticGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaticGetter.m; path = Parser/StaticGetter.m; sourceTree = "<group>"; };
 		5494CBC016AA17F1007DB7AB /* myResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494CBC416AA17F1007DB7AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5494CBC616AA17F1007DB7AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +253,8 @@
 			children = (
 				54DBCF7916BA1E970082901F /* XMLParser.h */,
 				54DBCF7A16BA1E970082901F /* XMLParser.m */,
+				542FC46B16CC7DE1002F0E4D /* StaticGetter.h */,
+				542FC46C16CC7DE1002F0E4D /* StaticGetter.m */,
 			);
 			name = Parser;
 			sourceTree = "<group>";
@@ -382,6 +387,7 @@
 				54FF3B3816AF497900E76025 /* SingleSectionTableViewController.m in Sources */,
 				54FF3B3D16AF498900E76025 /* DetailViewController.m in Sources */,
 				54DBCF7B16BA1E970082901F /* XMLParser.m in Sources */,
+				542FC46D16CC7DE1002F0E4D /* StaticGetter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
