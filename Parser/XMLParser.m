@@ -10,32 +10,32 @@
 
 @implementation XMLParser
 
-+(id)initWithContentsOfURL:(NSURL *)url {
+-(id)initWithContentsOfURL:(NSURL *)url {
 #warning Potentially incomplete method implementation.
     return NULL;
 }
 
-+(id)initWithData:(NSData *)data {
+-(id)initWithData:(NSData *)data {
 #warning Potentially incomplete method implementation.
     return NULL;
 }
 
-+(BOOL)parse {
+-(BOOL)parse {
 #warning Potentially incomplete method implementation.
     return YES;
 }
 
-+(void)parserDidStartDocument:(NSXMLParser *)parser {
+-(void)parserDidStartDocument:(NSXMLParser *)parser {
 #warning Potentially incomplete method implementation.
     
 }
 
-+(void)parserDidEndDocument:(NSXMLParser *)parser {
+-(void)parserDidEndDocument:(NSXMLParser *)parser {
 #warning Potentially incomplete method implementation.
     
 }
 
-+(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName
+-(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName
                                     namespaceURI:(NSString *)namespaceURI
                                     qualifiedName:(NSString *)qName
                                     attributes:(NSDictionary *)attributeDict {
@@ -43,7 +43,7 @@
     
 }
 
-+(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName
+-(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName
                                     namespaceURI:(NSString *)namespaceURI
                                     qualifiedName:(NSString *)qName {
 #warning Potentially incomplete method implementation.
