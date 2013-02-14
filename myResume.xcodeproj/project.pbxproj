@@ -12,6 +12,12 @@
 		542FC47216CC84E6002F0E4D /* SkillsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC47016CC84E6002F0E4D /* SkillsViewController.xib */; };
 		542FC47616CC8505002F0E4D /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC47416CC8505002F0E4D /* JobsViewController.m */; };
 		542FC47716CC8505002F0E4D /* JobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC47516CC8505002F0E4D /* JobsViewController.xib */; };
+		542FC47D16CC85FF002F0E4D /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC47B16CC85FF002F0E4D /* ProjectsViewController.m */; };
+		542FC47E16CC85FF002F0E4D /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC47C16CC85FF002F0E4D /* ProjectsViewController.xib */; };
+		542FC48216CC8612002F0E4D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC48016CC8612002F0E4D /* ContactViewController.m */; };
+		542FC48316CC8612002F0E4D /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC48116CC8612002F0E4D /* ContactViewController.xib */; };
+		542FC48716CC8628002F0E4D /* EducationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC48516CC8628002F0E4D /* EducationsViewController.m */; };
+		542FC48816CC8628002F0E4D /* EducationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC48616CC8628002F0E4D /* EducationsViewController.xib */; };
 		5494CBC516AA17F1007DB7AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC416AA17F1007DB7AB /* UIKit.framework */; };
 		5494CBC716AA17F1007DB7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC616AA17F1007DB7AB /* Foundation.framework */; };
 		5494CBC916AA17F1007DB7AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC816AA17F1007DB7AB /* CoreGraphics.framework */; };
@@ -58,12 +64,21 @@
 /* Begin PBXFileReference section */
 		542FC46B16CC7DE1002F0E4D /* StaticGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticGetter.h; path = Parser/StaticGetter.h; sourceTree = "<group>"; };
 		542FC46C16CC7DE1002F0E4D /* StaticGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaticGetter.m; path = Parser/StaticGetter.m; sourceTree = "<group>"; };
-		542FC46E16CC84E6002F0E4D /* SkillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkillsViewController.h; path = Classes/SkillsViewController.h; sourceTree = "<group>"; };
-		542FC46F16CC84E6002F0E4D /* SkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkillsViewController.m; path = Classes/SkillsViewController.m; sourceTree = "<group>"; };
-		542FC47016CC84E6002F0E4D /* SkillsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkillsViewController.xib; path = Classes/SkillsViewController.xib; sourceTree = "<group>"; };
-		542FC47316CC8505002F0E4D /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = Classes/JobsViewController.h; sourceTree = "<group>"; };
-		542FC47416CC8505002F0E4D /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = Classes/JobsViewController.m; sourceTree = "<group>"; };
-		542FC47516CC8505002F0E4D /* JobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsViewController.xib; path = Classes/JobsViewController.xib; sourceTree = "<group>"; };
+		542FC46E16CC84E6002F0E4D /* SkillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkillsViewController.h; path = Classes/ClassesViewController/SkillsViewController.h; sourceTree = "<group>"; };
+		542FC46F16CC84E6002F0E4D /* SkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkillsViewController.m; path = Classes/ClassesViewController/SkillsViewController.m; sourceTree = "<group>"; };
+		542FC47016CC84E6002F0E4D /* SkillsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkillsViewController.xib; path = Classes/ClassesViewController/SkillsViewController.xib; sourceTree = "<group>"; };
+		542FC47316CC8505002F0E4D /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = Classes/ClassesViewController/JobsViewController.h; sourceTree = "<group>"; };
+		542FC47416CC8505002F0E4D /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = Classes/ClassesViewController/JobsViewController.m; sourceTree = "<group>"; };
+		542FC47516CC8505002F0E4D /* JobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsViewController.xib; path = Classes/ClassesViewController/JobsViewController.xib; sourceTree = "<group>"; };
+		542FC47A16CC85FF002F0E4D /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectsViewController.h; path = Classes/ClassesViewController/ProjectsViewController.h; sourceTree = "<group>"; };
+		542FC47B16CC85FF002F0E4D /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectsViewController.m; path = Classes/ClassesViewController/ProjectsViewController.m; sourceTree = "<group>"; };
+		542FC47C16CC85FF002F0E4D /* ProjectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProjectsViewController.xib; path = Classes/ClassesViewController/ProjectsViewController.xib; sourceTree = "<group>"; };
+		542FC47F16CC8612002F0E4D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = Classes/ClassesViewController/ContactViewController.h; sourceTree = "<group>"; };
+		542FC48016CC8612002F0E4D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = Classes/ClassesViewController/ContactViewController.m; sourceTree = "<group>"; };
+		542FC48116CC8612002F0E4D /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContactViewController.xib; path = Classes/ClassesViewController/ContactViewController.xib; sourceTree = "<group>"; };
+		542FC48416CC8628002F0E4D /* EducationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducationsViewController.h; path = Classes/ClassesViewController/EducationsViewController.h; sourceTree = "<group>"; };
+		542FC48516CC8628002F0E4D /* EducationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EducationsViewController.m; path = Classes/ClassesViewController/EducationsViewController.m; sourceTree = "<group>"; };
+		542FC48616CC8628002F0E4D /* EducationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EducationsViewController.xib; path = Classes/ClassesViewController/EducationsViewController.xib; sourceTree = "<group>"; };
 		5494CBC016AA17F1007DB7AB /* myResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494CBC416AA17F1007DB7AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5494CBC616AA17F1007DB7AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,15 +115,15 @@
 		5494CC1316AA2247007DB7AB /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		54DBCF7916BA1E970082901F /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = Parser/XMLParser.h; sourceTree = "<group>"; };
 		54DBCF7A16BA1E970082901F /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = Parser/XMLParser.m; sourceTree = "<group>"; };
-		54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipleSectionTableViewController.h; path = Classes/MultipleSectionTableViewController.h; sourceTree = "<group>"; };
-		54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipleSectionTableViewController.m; path = Classes/MultipleSectionTableViewController.m; sourceTree = "<group>"; };
-		54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleSectionTableViewController.xib; path = Classes/MultipleSectionTableViewController.xib; sourceTree = "<group>"; };
-		54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleSectionTableViewController.h; path = Classes/SingleSectionTableViewController.h; sourceTree = "<group>"; };
-		54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleSectionTableViewController.m; path = Classes/SingleSectionTableViewController.m; sourceTree = "<group>"; };
-		54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SingleSectionTableViewController.xib; path = Classes/SingleSectionTableViewController.xib; sourceTree = "<group>"; };
-		54FF3B3A16AF498900E76025 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		54FF3B3B16AF498900E76025 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		54FF3B3C16AF498900E76025 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultipleSectionTableViewController.h; path = Classes/TableViewController/MultipleSectionTableViewController.h; sourceTree = "<group>"; };
+		54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultipleSectionTableViewController.m; path = Classes/TableViewController/MultipleSectionTableViewController.m; sourceTree = "<group>"; };
+		54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleSectionTableViewController.xib; path = Classes/TableViewController/MultipleSectionTableViewController.xib; sourceTree = "<group>"; };
+		54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleSectionTableViewController.h; path = Classes/TableViewController/SingleSectionTableViewController.h; sourceTree = "<group>"; };
+		54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleSectionTableViewController.m; path = Classes/TableViewController/SingleSectionTableViewController.m; sourceTree = "<group>"; };
+		54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SingleSectionTableViewController.xib; path = Classes/TableViewController/SingleSectionTableViewController.xib; sourceTree = "<group>"; };
+		54FF3B3A16AF498900E76025 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Classes/TableViewController/DetailViewController.h; sourceTree = "<group>"; };
+		54FF3B3B16AF498900E76025 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Classes/TableViewController/DetailViewController.m; sourceTree = "<group>"; };
+		54FF3B3C16AF498900E76025 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Classes/TableViewController/DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +150,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542FC47816CC852D002F0E4D /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54FF3B3A16AF498900E76025 /* DetailViewController.h */,
+				54FF3B3B16AF498900E76025 /* DetailViewController.m */,
+				54FF3B3C16AF498900E76025 /* DetailViewController.xib */,
+				54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */,
+				54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */,
+				54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */,
+				54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */,
+				54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */,
+				54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		542FC47916CC8536002F0E4D /* ClassesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				542FC46E16CC84E6002F0E4D /* SkillsViewController.h */,
+				542FC46F16CC84E6002F0E4D /* SkillsViewController.m */,
+				542FC47016CC84E6002F0E4D /* SkillsViewController.xib */,
+				542FC47316CC8505002F0E4D /* JobsViewController.h */,
+				542FC47416CC8505002F0E4D /* JobsViewController.m */,
+				542FC47516CC8505002F0E4D /* JobsViewController.xib */,
+				542FC47A16CC85FF002F0E4D /* ProjectsViewController.h */,
+				542FC47B16CC85FF002F0E4D /* ProjectsViewController.m */,
+				542FC47C16CC85FF002F0E4D /* ProjectsViewController.xib */,
+				542FC47F16CC8612002F0E4D /* ContactViewController.h */,
+				542FC48016CC8612002F0E4D /* ContactViewController.m */,
+				542FC48116CC8612002F0E4D /* ContactViewController.xib */,
+				542FC48416CC8628002F0E4D /* EducationsViewController.h */,
+				542FC48516CC8628002F0E4D /* EducationsViewController.m */,
+				542FC48616CC8628002F0E4D /* EducationsViewController.xib */,
+			);
+			name = ClassesViewController;
+			sourceTree = "<group>";
+		};
 		5494CBB516AA17F1007DB7AB = {
 			isa = PBXGroup;
 			children = (
@@ -245,21 +298,8 @@
 		5494CC1516AA268A007DB7AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				54FF3B2F16AF47C600E76025 /* MultipleSectionTableViewController.h */,
-				54FF3B3016AF47C600E76025 /* MultipleSectionTableViewController.m */,
-				54FF3B3116AF47C600E76025 /* MultipleSectionTableViewController.xib */,
-				54FF3B3516AF497900E76025 /* SingleSectionTableViewController.h */,
-				54FF3B3616AF497900E76025 /* SingleSectionTableViewController.m */,
-				54FF3B3716AF497900E76025 /* SingleSectionTableViewController.xib */,
-				54FF3B3A16AF498900E76025 /* DetailViewController.h */,
-				54FF3B3B16AF498900E76025 /* DetailViewController.m */,
-				54FF3B3C16AF498900E76025 /* DetailViewController.xib */,
-				542FC46E16CC84E6002F0E4D /* SkillsViewController.h */,
-				542FC46F16CC84E6002F0E4D /* SkillsViewController.m */,
-				542FC47016CC84E6002F0E4D /* SkillsViewController.xib */,
-				542FC47316CC8505002F0E4D /* JobsViewController.h */,
-				542FC47416CC8505002F0E4D /* JobsViewController.m */,
-				542FC47516CC8505002F0E4D /* JobsViewController.xib */,
+				542FC47916CC8536002F0E4D /* ClassesViewController */,
+				542FC47816CC852D002F0E4D /* TableViewController */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -360,6 +400,9 @@
 				54FF3B3E16AF498900E76025 /* DetailViewController.xib in Resources */,
 				542FC47216CC84E6002F0E4D /* SkillsViewController.xib in Resources */,
 				542FC47716CC8505002F0E4D /* JobsViewController.xib in Resources */,
+				542FC47E16CC85FF002F0E4D /* ProjectsViewController.xib in Resources */,
+				542FC48316CC8612002F0E4D /* ContactViewController.xib in Resources */,
+				542FC48816CC8628002F0E4D /* EducationsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +451,9 @@
 				542FC46D16CC7DE1002F0E4D /* StaticGetter.m in Sources */,
 				542FC47116CC84E6002F0E4D /* SkillsViewController.m in Sources */,
 				542FC47616CC8505002F0E4D /* JobsViewController.m in Sources */,
+				542FC47D16CC85FF002F0E4D /* ProjectsViewController.m in Sources */,
+				542FC48216CC8612002F0E4D /* ContactViewController.m in Sources */,
+				542FC48716CC8628002F0E4D /* EducationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

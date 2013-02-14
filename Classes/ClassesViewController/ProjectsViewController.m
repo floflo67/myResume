@@ -1,18 +1,18 @@
 //
-//  JobsViewController.m
+//  ProjectsViewController.m
 //  myResume
 //
 //  Created by Florian Reiss on 13/02/13.
 //  Copyright (c) 2013 Florian Reiss. All rights reserved.
 //
 
-#import "JobsViewController.h"
+#import "ProjectsViewController.h"
 
-@interface JobsViewController ()
+@interface ProjectsViewController ()
 
 @end
 
-@implementation JobsViewController
+@implementation ProjectsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

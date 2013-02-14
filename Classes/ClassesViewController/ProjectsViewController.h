@@ -1,5 +1,5 @@
 //
-//  JobsViewController.h
+//  ProjectsViewController.h
 //  myResume
 //
 //  Created by Florian Reiss on 13/02/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JobsViewController : UIViewController
+@interface ProjectsViewController : UIViewController
 
 @end
