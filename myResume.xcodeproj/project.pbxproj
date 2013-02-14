@@ -10,6 +10,8 @@
 		542FC46D16CC7DE1002F0E4D /* StaticGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC46C16CC7DE1002F0E4D /* StaticGetter.m */; };
 		542FC47116CC84E6002F0E4D /* SkillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC46F16CC84E6002F0E4D /* SkillsViewController.m */; };
 		542FC47216CC84E6002F0E4D /* SkillsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC47016CC84E6002F0E4D /* SkillsViewController.xib */; };
+		542FC47616CC8505002F0E4D /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542FC47416CC8505002F0E4D /* JobsViewController.m */; };
+		542FC47716CC8505002F0E4D /* JobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542FC47516CC8505002F0E4D /* JobsViewController.xib */; };
 		5494CBC516AA17F1007DB7AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC416AA17F1007DB7AB /* UIKit.framework */; };
 		5494CBC716AA17F1007DB7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC616AA17F1007DB7AB /* Foundation.framework */; };
 		5494CBC916AA17F1007DB7AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494CBC816AA17F1007DB7AB /* CoreGraphics.framework */; };
@@ -59,6 +61,9 @@
 		542FC46E16CC84E6002F0E4D /* SkillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkillsViewController.h; path = Classes/SkillsViewController.h; sourceTree = "<group>"; };
 		542FC46F16CC84E6002F0E4D /* SkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkillsViewController.m; path = Classes/SkillsViewController.m; sourceTree = "<group>"; };
 		542FC47016CC84E6002F0E4D /* SkillsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkillsViewController.xib; path = Classes/SkillsViewController.xib; sourceTree = "<group>"; };
+		542FC47316CC8505002F0E4D /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = Classes/JobsViewController.h; sourceTree = "<group>"; };
+		542FC47416CC8505002F0E4D /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = Classes/JobsViewController.m; sourceTree = "<group>"; };
+		542FC47516CC8505002F0E4D /* JobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsViewController.xib; path = Classes/JobsViewController.xib; sourceTree = "<group>"; };
 		5494CBC016AA17F1007DB7AB /* myResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494CBC416AA17F1007DB7AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5494CBC616AA17F1007DB7AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -252,6 +257,9 @@
 				542FC46E16CC84E6002F0E4D /* SkillsViewController.h */,
 				542FC46F16CC84E6002F0E4D /* SkillsViewController.m */,
 				542FC47016CC84E6002F0E4D /* SkillsViewController.xib */,
+				542FC47316CC8505002F0E4D /* JobsViewController.h */,
+				542FC47416CC8505002F0E4D /* JobsViewController.m */,
+				542FC47516CC8505002F0E4D /* JobsViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -351,6 +359,7 @@
 				54FF3B3916AF497900E76025 /* SingleSectionTableViewController.xib in Resources */,
 				54FF3B3E16AF498900E76025 /* DetailViewController.xib in Resources */,
 				542FC47216CC84E6002F0E4D /* SkillsViewController.xib in Resources */,
+				542FC47716CC8505002F0E4D /* JobsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +407,7 @@
 				54DBCF7B16BA1E970082901F /* XMLParser.m in Sources */,
 				542FC46D16CC7DE1002F0E4D /* StaticGetter.m in Sources */,
 				542FC47116CC84E6002F0E4D /* SkillsViewController.m in Sources */,
+				542FC47616CC8505002F0E4D /* JobsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
