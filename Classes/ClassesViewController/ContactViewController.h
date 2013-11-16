@@ -10,4 +10,19 @@
 
 @interface ContactViewController : UIViewController
 
+@property (nonatomic, retain) NSString* lastName;
+@property (nonatomic, retain) NSString* firstName;
+@property (nonatomic, retain) NSString* streetName;
+@property (nonatomic, retain) NSString* city;
+@property (nonatomic, retain) NSString* country;
+@property (nonatomic, retain) NSString* description;
+
+@property (nonatomic, retain) NSString* phoneNumber;
+
+@property (nonatomic, retain) NSString* zipCode;
+@property (nonatomic, retain) NSString* streetNumber;
+
+-(id)init;
+-(id)initWithDictionary:(NSDictionary*)dict;
+
 @end
