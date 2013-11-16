@@ -8,7 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface StaticGetter : NSObject
+@interface StaticGetter : NSObject {
+    NSArray* listSkills;
+    NSArray* listJobs;
+    NSArray* listEducation;
+    NSArray* listProjects;
+}
 
 +(NSArray*)getListJobs;
 +(NSArray*)getListProjects;
